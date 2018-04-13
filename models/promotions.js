@@ -27,7 +27,7 @@ var promoSchema = new Schema({
         required: true
     },
     featured: {
-        type: Boolean,
+        type: String,
         default:false
     }
 }, {
